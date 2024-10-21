@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import {useRoute} from "vue-router";
 
-import MainLayout from "./layout/MainLayout.vue";
-import LoginLayout from "./layout/LoginLayout.vue";
-import ErrorLayout from "./layout/ErrorLayout.vue";
+import MainLayout from "@/layout/MainLayout.vue";
+import LoginLayout from "@/layout/LoginLayout.vue";
+import ErrorLayout from "@/layout/ErrorLayout.vue";
 
 const route = useRoute()
 

@@ -1,12 +1,10 @@
 <script setup lang="ts">
-
+import Sidebar from "@/layout/Bars/Sidebar.vue";
 </script>
 
 <template>
   <div class="flex items-start">
-    <div class="w-[200px] bg-[black] h-[100vh]">
-      <p>Sidebar</p>
-    </div>
+    <Sidebar/>
 
     <div class="px-[20px]">
       <slot/>

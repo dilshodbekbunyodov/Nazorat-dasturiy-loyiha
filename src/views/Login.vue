@@ -5,7 +5,7 @@ const router = useRouter()
 </script>
 
 <template>
-  <button @click="router.push('test')">Login</button>
+  <button @click="router.push('test')">Home</button>
 </template>
 
 <style scoped>
