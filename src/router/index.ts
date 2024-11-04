@@ -11,25 +11,25 @@ const routes: Array<RouteRecordRaw> = [
     {
         path: "/login",
         name: "login",
-        component: import("@/views/Login.vue"),
+        component: import("../views/Login.vue"),
         meta: { layout: "LoginLayout" },
     },
     {
         path: "/:pathMatch(.*)*",
         name: "notFound",
-        component: import("@/layout/ErrorLayout.vue"),
+        component: import("../layout/ErrorLayout.vue"),
         meta: { layout: "ErrorLayout" },
     },
     {
         path: "/test",
         name: "test",
-        component: import("@/views/Test.vue"),
+        component: import("../views/Test.vue"),
         meta: { layout: "MainLayout" },
     },
     {
         path: "/test2",
         name: "test2",
-        component: import("@/views/Test2.vue"),
+        component: import("../views/Test2.vue"),
         meta: { layout: "MainLayout" },
     },
 ];
